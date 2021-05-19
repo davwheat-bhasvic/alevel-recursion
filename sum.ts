@@ -14,7 +14,7 @@ function sum(num: number): number {
     type: "number",
     name: "num",
     message: "Num to sum to",
-    validate: (value: number) => (value < 0 ? `Number must be  >=0` : true),
+    validate: (value: number) => (value < 0 ? `Number must be >= 0` : true),
   });
 
   console.log(sum(out.num));
